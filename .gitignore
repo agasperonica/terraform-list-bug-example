@@ -1,0 +1,12 @@
+# Ignore virtual environment
+**venv
+
+
+# Ignore tfstate
+*.tfstate
+
+# Ignore terraform installs
+**.terraform
+
+# Ignore pem file(s)
+**.pem

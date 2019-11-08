@@ -1,0 +1,27 @@
+---
+global_variables: &global_variables
+  customer: msp-agasper
+
+terraform_backend_config: &terraform_backend_config
+  bucket: terraform-runway-list-bug
+  region: us-east-1
+
+
+deployments:
+  - name: Some S3 Bucket
+    modules:
+      - path: examples-s3
+    regions:
+      - us-east-1
+    module_options:
+      terraform_backend_config:
+        <<: *terraform_backend_config
+    environments:
+      test:
+        <<: *global_variables
+        bucket_name: some-unqiue-bucket-name
+        region: us-east-1
+        environment: test
+        # tags:
+        #   Purpose: Example
+        #   ResourceType: s3-bucket
