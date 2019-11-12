@@ -4,7 +4,7 @@ global_variables: &global_variables
 
 terraform_backend_config: &terraform_backend_config
   bucket: terraform-runway-list-bug
-  region: us-east-1
+  region: us-east-2
 
 
 deployments:
@@ -12,7 +12,7 @@ deployments:
     modules:
       - path: examples-s3
     regions:
-      - us-east-1
+      - us-east-2
     module_options:
       terraform_backend_config:
         <<: *terraform_backend_config
@@ -22,6 +22,6 @@ deployments:
         bucket_name: some-unqiue-bucket-name
         region: us-east-1
         environment: test
-        # tags:
-        #   Purpose: Example
-        #   ResourceType: s3-bucket
+        tags:
+          Purpose: Example
+          ResourceType: s3-bucket
