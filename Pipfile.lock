@@ -37,24 +37,24 @@
         },
         "awscli": {
             "hashes": [
-                "sha256:4be811ef519ce1cb6bce390dae64aa1e6c776dc01fea3bd35d628f543b588c88",
-                "sha256:dfb6bf005974b964fac5da124d9cb5ee561d3c75f2a0b7ae5735792ccddbf2a0"
+                "sha256:3f07e174869ad70629c2e3936476dd9eaa971b46eb732f7904460d1101f98abf",
+                "sha256:f8e5da32149295c1fb756873d46dbe386fabe29bc1560b35f9eb147812d38ee8"
             ],
-            "version": "==1.16.277"
+            "version": "==1.16.279"
         },
         "boto3": {
             "hashes": [
-                "sha256:228cea7e2b3be79e5393719641854d4000826d7a7baebede903a616b505b8e17",
-                "sha256:ad6d50dd5726a12c6442c23aabec0c7e09ef610834d9fbda010bade6888d7677"
+                "sha256:0cab4b6571c76d0ed4fea9d4be9d94daf741e93ead6f10bcdff4b972b4dbcf09",
+                "sha256:35eb4d839650a20f70eca5abe4483fe4fd9e57dd1357d949a44af7b1a0e652dc"
             ],
-            "version": "==1.10.13"
+            "version": "==1.10.15"
         },
         "botocore": {
             "hashes": [
-                "sha256:33ee13a42ee1cc2391a3cd3ce12c84026db20cc76a5700d94fbe07a136d0c354",
-                "sha256:d1c6f01486566521b59fd5d4f6ba0adf526ed0d1807a0c0ba6604e982d014f3d"
+                "sha256:174399fb3e95b965afb2f33ab0d71448d60f336c5eaf9654e4436b44ca7aaa0b",
+                "sha256:a6e4a62667437f01a70e7f2e5c569320d520b2364c45084ec40de143bc0e23a4"
             ],
-            "version": "==1.13.13"
+            "version": "==1.13.15"
         },
         "certifi": {
             "hashes": [
@@ -110,10 +110,10 @@
         },
         "cfn-lint": {
             "hashes": [
-                "sha256:1df76ac8c7bd6c9d9d1e70d5081e3ed30757e60ae4dbf9d1af957d6c04ada8b8",
-                "sha256:5aa1540ee9a7efc23ebe54a22f1a505766a4bb44f64a0f4fe79574a156a9b43e"
+                "sha256:499306686eaf3b2b3f20c8008c2bbbf8cd6471f0cc3321d569029bd95913be76",
+                "sha256:b0f660ba08925b19eced0d4b52b305369fc3615fb0e9c7e0aa0fd6351d1bf995"
             ],
-            "version": "==0.24.8"
+            "version": "==0.25.0"
         },
         "chardet": {
             "hashes": [
@@ -380,10 +380,10 @@
         },
         "runway": {
             "hashes": [
-                "sha256:9740859b09558864ec06ad84342e63f787a01765d734bc325d015446c1eccda7"
+                "sha256:285f6cfc6ad5ca6c482996dd257f6ca2cb74f04fa941978d6a7eed2c8a692c63"
             ],
             "index": "pypi",
-            "version": "==1.1.0"
+            "version": "==1.2.0"
         },
         "s3transfer": {
             "hashes": [

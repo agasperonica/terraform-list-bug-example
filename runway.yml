@@ -25,3 +25,4 @@ deployments:
         tags:
           Purpose: Example
           ResourceType: s3-bucket
+          Dank: PatchBro
